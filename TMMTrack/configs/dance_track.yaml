@@ -1,0 +1,17 @@
+model:
+  name: tmm_module
+  tim_layers: 3
+  stim_layers: 3
+  hidden_dim: 256
+  motion_dim: 128
+train:
+  epochs: 60
+  batch_size: 8
+  lr: 2e-4
+  weight_decay: 5e-5
+  device: cuda
+data:
+  dataset: DanceTrack
+  ann_file: /path/to/dancetrack/annotations.yaml
+  img_dir: /path/to/dancetrack/images
+  seq_len: 12
