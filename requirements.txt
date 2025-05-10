@@ -1,0 +1,14 @@
+torch>=1.10.0
+torchvision>=0.11.0
+tqdm>=4.62.0
+opencv-python>=4.5.3
+pyyaml>=5.4.1
+motmetrics>=1.2.0
+scipy>=1.7.1
+numpy>=1.21.0
+tensorboard>=2.6.0
+einops>=0.4.1
+matplotlib>=3.4.3
+pycocotools>=2.0.2
+# If using YOLOX as backbone (optional)
+# yolox @ git+https://github.com/Megvii-BaseDetection/YOLOX.git
