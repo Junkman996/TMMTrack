@@ -4,7 +4,7 @@
 
 ## Abstract
 
-TMMTrack is an online multi-object tracking algorithm tailored for nonlinear motion scenarios. To address the limitations of the constant velocity assumption in existing methods, TMMTrack introduces a trajectory-based motion modeling strategy within the tracking-by-detection framework. It leverages a long-term memory buffer and learnable motion tokens to capture spatio-temporal interactions between trajectories, and employs a self-attention-based adaptive aggregation mechanism to model both individual and group motion patterns. Experiments on DanceTrack and SportsMOT benchmarks show that TMMTrack achieves approximately 4% improvement in key metrics such as HOTA and IDF1 over existing approaches.
+TMMTrack is an online multi-object tracking algorithm tailored for **nonlinear motion** scenarios. To address the limitations of the constant velocity assumption in existing methods, TMMTrack introduces a **trajectory-based motion modeling** strategy within the tracking-by-detection framework. It leverages a long-term memory buffer and learnable motion tokens to capture spatio-temporal interactions between trajectories, and employs a self-attention-based adaptive aggregation mechanism to model both individual and group motion patterns. Experiments on DanceTrack and SportsMOT benchmarks show that TMMTrack achieves approximately 4% improvement in key metrics such as HOTA and IDF1 over existing approaches.
 
 ## 📈 Performance Benchmark
 
